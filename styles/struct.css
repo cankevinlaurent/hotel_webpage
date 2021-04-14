@@ -1,0 +1,78 @@
+/* 该文件保存了网页的框架 */
+
+/* =全局设置
+--------------------------------------------------------------- */
+* {
+	margin:0px auto;
+	padding:0px;
+}
+
+/* =BODY容器，在页面四周空白部分填充黑色
+--------------------------------------------------------------- */
+BODY { background-image:url(../images/bg.jpg); }
+
+/* =container容器，将页面限定为800x(600)
+--------------------------------------------------------------- */
+#container {
+	margin:0px auto;
+	width:800px;
+	font-family:"宋体";
+	font-size:10.5pt;
+	color:#CBC48E;
+	text-align:center;
+	background-color:#322A1E;
+	border-left:4px solid #AC9C85;
+	border-right:4px solid #AC9C85;
+}
+
+/* =头部
+--------------------------------------------------------------- */
+#header {
+	width:100%;
+	height:200px;
+	background-image:url(../images/header.gif);
+	border-bottom:8px solid #322A1E;
+}
+
+/* =头部导航条
+--------------------------------------------------------------- */
+#header_navigator {
+	float:right;
+	margin:-24px 20px 0px 0px;
+}
+
+/* =主体左半部分
+--------------------------------------------------------------- */
+#sidebar {
+	width:23%;
+	float:left;
+	background-color:#322A1E;
+}
+
+/* =主体右半部分
+--------------------------------------------------------------- */
+#mainbody {
+	width:77%;
+	float:right;
+	text-align:left;
+	background-color:#534531;
+}
+
+/* =简约主体
+--------------------------------------------------------------- */
+#maintext {
+	text-align:left;
+	border:3px double #AC9C85;
+	background-color:#534531;
+	width:99%;
+}
+
+/* =底部
+---------------------------------------------------------------- */
+#footer {
+	width:100%;
+	clear:left;
+	padding:16px 0px;
+	background-color:#322A1E;
+	border-bottom:4px solid #AC9C85;
+}
